@@ -86,33 +86,33 @@ const Home = () => {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="relative z-10 text-5xl font-bold text-white text-center"
+          className="relative z-10 text-4xl sm:text-5xl lg:text-6xl font-bold text-white text-center px-4"
         >
           Welcome to Uber Clone!
         </motion.h1>
-        <p className="relative z-10 text-xl text-white mt-2 text-center">
+        <p className="relative z-10 text-lg sm:text-xl lg:text-2xl text-white mt-2 text-center px-4">
           Fast, safe, and reliable rides at your fingertips.
         </p>
 
         <a
               href="/booking"
-              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full shadow-lg transition-transform transform hover:scale-105"
+              className="relative z-10 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 sm:px-6 py-3 sm:py-4 rounded-full shadow-lg transition-transform transform hover:scale-105 mt-6"
             >
               Book a Ride
             </a>
             <br></br>
 
-        <p className="relative z-10 text-3xl font-bold text-white mt-2 text-center">
+        <p className="relative z-10 text-2xl sm:text-3xl font-bold text-white mt-8 text-center px-4">
             Your Jouney begins here!
             </p>   
 
-        <p className="relative z-10 tect-xl text-white mt-2 text-center">
+        <p className="relative z-10 text-base sm:text-lg lg:text-xl text-white mt-2 text-center px-6">
         Register here with Uber Clone and book a ride with us today
         </p>
 
              <a
               href="/login"
-              className="bg-blue-400 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full shadow-lg transition-transform transform hover:scale-105"
+              className="relative z-10 bg-blue-400 hover:bg-blue-500 text-white font-semibold px-5 sm:px-6 py-3 sm:py-4 rounded-full shadow-lg transition-transform transform hover:scale-105 mt-4"
             >
               Sign in
             </a> 
